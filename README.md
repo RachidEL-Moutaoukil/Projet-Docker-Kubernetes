@@ -1,29 +1,3 @@
-# Projet-Docker-Kubernetes
-Partie 1 : Docker
-	•	Écrire un Dockerfile pour le backend Flask
-	•	Écrire un Dockerfile pour le frontend React
-	•	Créer un réseau docker-compose.yml si tu veux tester localement hors Kubernetes
+<p align="left"># Projet-Docker-Kubernetes<br>Partie 1 : Docker<br>	•	Écrire un Dockerfile pour le backend Flask<br>	•	Écrire un Dockerfile pour le frontend React<br>	•	Créer un réseau docker-compose.yml si tu veux tester localement hors Kubernetes<br><br><br> Partie 2 : Kubernetes<br>	•	Créer les fichiers YAML suivants :<br>	•	backend-deployment.yaml et backend-service.yaml<br>	•	frontend-deployment.yaml et frontend-service.yaml<br>	•	db-deployment.yaml et db-service.yaml<br>	•	secret.yaml pour les credentials PostgreSQL<br>	•	configmap.yaml pour les variables d’environnement (facultatif)<br>	•	Ajouter un Ingress Controller (optionnel) pour un accès via nom de domaine local<br><br> Partie 3 : Visualisation et vérification<br>	•	Déployer le Dashboard Kubernetes (minikube dashboard)<br>	•	Vérifier que tous les pods sont en état Running<br>	•	Vérifier que le frontend communique bien avec le backend<br>	•	Vérifier que le backend communique bien avec PostgreSQL<br><br>Points de plus:<br>Ajouter monitoring (Prometheus/Grafana)<br>Déployer le projet sur AKS<br><br>Rendu:<br>  • un fichier zip qui contient tout le projet fonctionnel avec les fichiers à remplir.<br>  • Les urls des images du backend et du frontend sur votre dockerhub</p>
 
-
- Partie 2 : Kubernetes
-	•	Créer les fichiers YAML suivants :
-	•	backend-deployment.yaml et backend-service.yaml
-	•	frontend-deployment.yaml et frontend-service.yaml
-	•	db-deployment.yaml et db-service.yaml
-	•	secret.yaml pour les credentials PostgreSQL
-	•	configmap.yaml pour les variables d’environnement (facultatif)
-	•	Ajouter un Ingress Controller (optionnel) pour un accès via nom de domaine local
-
- Partie 3 : Visualisation et vérification
-	•	Déployer le Dashboard Kubernetes (minikube dashboard)
-	•	Vérifier que tous les pods sont en état Running
-	•	Vérifier que le frontend communique bien avec le backend
-	•	Vérifier que le backend communique bien avec PostgreSQL
-
-Points de plus:
-Ajouter monitoring (Prometheus/Grafana)
-Déployer le projet sur AKS
-
-Rendu:
-  • un fichier zip qui contient tout le projet fonctionnel avec les fichiers à remplir.
-  • Les urls des images du backend et du frontend sur votre dockerhub 
+###
